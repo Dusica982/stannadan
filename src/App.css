@@ -14,11 +14,22 @@ html {
   background-color: #01263c;
 }
 
+.logoImg {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 2%;
+  margin-right: 10%;
+}
+
 .logo {
   text-decoration: none;
   font-size: 60px;
   color: #c0c0c0;
   font-family: "Great Vibes", cursive;
+  display: flex;
+  flex-direction: row;
 }
 
 .App-logo {
@@ -39,16 +50,6 @@ html {
 
 .App-link {
   color: #c0c0c0;
-}
-
-.logo {
-  margin-right: 0%;
-  margin-left: -5%;
-}
-
-.logoImg {
-  margin-right: 15%;
-  margin-left: -5%;
 }
 
 /*Manu*/
@@ -96,6 +97,8 @@ html {
 img {
   margin: auto;
   border-radius: 3px;
+  width: 1450px;
+  height: 720px;
 }
 
 h2 {
@@ -110,6 +113,10 @@ h2 {
   margin-left: 3%;
   font-family: "Great Vibes", cursive;
   font-weight: bold;
+}
+
+.homePageSlider {
+  border-radius: 5px;
 }
 
 /*About*/
@@ -216,12 +223,9 @@ h2 {
 
 /* For tablet: */
 
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 600px) {
   .logoImg {
-    margin-right: 9%;
-    margin-left: -9%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    margin-left: 7%;
   }
 
   .logo {
@@ -242,7 +246,7 @@ h2 {
 }
 
 /* For mobile phones: */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
   }

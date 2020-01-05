@@ -15,20 +15,20 @@ class Photos extends React.Component {
       <div id="photos">
         <h2 className="simpleSlider"> Photos</h2>
         <Slider {...settings}>
-          <div className="homePageSlider">
-            <img src="images/stannadan1.jpg" />
+          <div>
+            <img src="images/stannadan1.jpg" className="homePageSlider" />
           </div>
-          <div className="homePageSlider">
-            <img src="images/stannadan2.jpg" />
+          <div>
+            <img src="images/stannadan2.jpg" className="homePageSlider" />
           </div>
-          <div className="homePageSlider">
-            <img src="images/stannadan3.jpg" />
+          <div>
+            <img src="images/stannadan3.jpg" className="homePageSlider" />
           </div>
-          <div className="homePageSlider">
-            <img src="images/stannadan4.jpg" />
+          <div>
+            <img src="images/stannadan4.jpg" className="homePageSlider" />
           </div>
-          <div className="homePageSlider">
-            <img src="images/stannadan5.jpg" />
+          <div>
+            <img src="images/stannadan5.jpg" className="homePageSlider" />
           </div>
         </Slider>
       </div>

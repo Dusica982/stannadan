@@ -10,12 +10,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        <a className="logo" href="https://stannaslaviji.rs">
-          {" "}
-          <img className="logoImg" src="./images/SlavijaSquareApartment.jpg.jpg" width="120" height="120" />
-          Soul Apartment - Slavija Square
-        </a>
+        <div>
+          <a className="logo" href="https://stannaslaviji.rs">
+            {" "}
+            <img className="logoImg" src="./images/SlavijaSquareApartment.jpg.jpg" />
+            Soul Apartment - Slavija Square
+          </a>
+        </div>
       </header>
       <div>
         <Manu />
