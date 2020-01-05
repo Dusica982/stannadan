@@ -7,8 +7,11 @@ class About extends React.Component {
   render() {
     return (
       <div>
-        <h2 className="simpleSlider"> Soul Apartment</h2>
-        <Tabs defaultActiveKey="location" id="about" className="aboutParagraphs">
+        <h2 className="simpleSlider" id="about">
+          {" "}
+          Soul Apartment
+        </h2>
+        <Tabs defaultActiveKey="location" className="aboutParagraphs">
           <Tab eventKey="location" title="Location">
             <p className="aboutLetters">
               <h2 className="aboutLetters">Soul Apartment Location</h2>

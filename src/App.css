@@ -212,4 +212,38 @@ h2 {
   }
 }
 
-@media all and (max-width: 1690px) @media all and (max-width: 1280px) @media all and (max-width: 980px) @media all and (max-width: 736px) @media all and (max-width: 480px);
+/* Responsive design */
+
+/* For tablet: */
+
+@media only screen and (max-width: 769px) {
+  .logoImg {
+    margin-right: 9%;
+    margin-left: -9%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .logo {
+    margin-left: -7%;
+    font-size: xx-large;
+  }
+
+  .wholemanu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .manuTabs {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: auto;
+  }
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+}
