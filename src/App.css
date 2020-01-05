@@ -1,13 +1,24 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+html {
+  background-color: #01263c;
+}
+/*Header*/
+
 .App {
   text-align: center;
+  background-color: #01263c;
 }
 
 .logo {
   text-decoration: none;
-  font-size: xx-large;
-  color: #0d5324;
+  font-size: 60px;
+  color: #c0c0c0;
   font-family: "Great Vibes", cursive;
-  font-weight: bold;
 }
 
 .App-logo {
@@ -15,35 +26,181 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #67eaca;
+  background-color: #015981;
   min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: 015981;
   margin: 3%;
   padding: 2%;
   border-radius: 5px;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #c0c0c0;
 }
 
+.logo {
+  margin-right: 0%;
+  margin-left: -5%;
+}
+
+.logoImg {
+  margin-right: 15%;
+  margin-left: -5%;
+}
+
+/*Manu*/
+
+.wholemanu {
+  display: flex;
+  flex-direction: row;
+}
+
+.manuTabs {
+  width: 33%;
+  background-color: #c0c0c0;
+  font-family: "Great Vibes", cursive;
+  font-size: calc(10px + 2vmin);
+  font-weight: bold;
+  margin: 0% 3%;
+  border-radius: 5px;
+  padding-top: 5px;
+  color: #015981;
+}
+
+/*Photos*/
+
 .slider {
-  background-color: #fcf9ec;
+  background-color: 015981;
   margin: 3%;
   border-radius: 5px;
-  height: 50%;
+  height: 100%;
+  padding-top: 2%;
+}
+
+.simpleSlider {
+  font-weight: bold;
+  color: #c0c0c0;
+  margin-bottom: 2%;
+}
+
+.simpleSliderContact {
+  color: #01263c;
+  font-weight: bold;
+
+  margin-bottom: 2%;
+}
+
+img {
+  margin: auto;
+  border-radius: 3px;
+}
+
+h2 {
+  padding-top: -10%;
+  font-family: "Great Vibes", cursive;
+  font-weight: bolder;
+}
+
+.tabs {
+  background: #67eaca;
+  width: 94%;
+  margin-left: 3%;
+  font-family: "Great Vibes", cursive;
+  font-weight: bold;
+}
+
+/*About*/
+
+.about {
+  margin: 3%;
+  background-color: white;
+  padding: 2%;
+}
+
+.aboutLetters {
+  color: white;
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-right: 3%;
+  list-style-type: none;
+}
+.abouth2 {
+  padding-top: 2%;
+  padding-bottom: 3%;
+  font-weight: bold;
+  color: white;
+}
+
+.aboutParagraphs {
+  justify-content: left;
+  color: white;
+}
+
+.nav {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.li {
+  position: relative;
+  color: white;
+}
+
+.a {
+  color: white;
+}
+
+/*Contact*/
+.form {
+  background: white;
+  width: 94%;
+  margin-left: 3%;
+  /* font-family: "Great Vibes", cursive; */
+  padding-top: 3%;
+  padding-bottom: 3%;
+  margin-bottom: 3%;
+  border-radius: 5px;
+  background-color: #c0c0c0;
+}
+
+.name {
+  display: block;
+  float: left;
+  padding-top: 2%;
+  width: 100%;
+}
+
+.email {
+  display: block;
+  padding-top: 2%;
+}
+
+.textarea {
+  display: block;
+  padding-top: 2%;
+  margin-left: 45%;
+  margin-top: 2%;
+}
+
+.submit {
+  margin-top: 2%;
+}
+
+/*Footer*/
+
+.footer {
+  background-color: #015981;
+  display: flex;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: white;
+  margin: 3%;
+  padding: 1%;
+  border-radius: 5px;
+  font-family: "Great Vibes", cursive;
 }
 
 @keyframes App-logo-spin {
@@ -54,3 +211,5 @@
     transform: rotate(360deg);
   }
 }
+
+@media all and (max-width: 1690px) @media all and (max-width: 1280px) @media all and (max-width: 980px) @media all and (max-width: 736px) @media all and (max-width: 480px);
