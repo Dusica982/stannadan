@@ -5,6 +5,7 @@ import Photos from "./Photos";
 import Manu from "./Manu";
 import About from "./About";
 import Contact from "./ContactUs";
+// import SocialMedia from "./SocialMedia";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
         <About />
       </div>
 
+      {/* <div>
+        <SocialMedia />
+      </div> */}
       <div>
         <Contact />
       </div>

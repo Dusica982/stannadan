@@ -15,12 +15,14 @@ class About extends React.Component {
           <Tab eventKey="location" title="Location">
             <p className="aboutLetters">
               <h2 className="aboutLetters">Soul Apartment Location</h2>
-              Location Soul Apartment is a newly renovated and high standard studio apartment. Perfect location, only
-              450m away from Slavija Square in Belgrade, make this apartment ideal combination for great sightseeing and
-              convenient comfort breaks. Apartment is only 2km away from city center and you can reach it by foot go
-              there with almost all lines - tram 2, trolley 19, 21, 22, 29 and bus 31. If you are coming in Belgrade by
-              airplane, you will need only 15min from airplane to Soul Apartment. Central bus and railway stations are
-              also close - less than 2.5 km away Belgrade Waterfront is also close, only 2km away.
+              <img className="map" src="images/map-apartment-bircaninova-slavija.jpg" />
+              <img className="map" src="images/street-view.jpg" />
+              Soul Apartment in Bircaninova 28/b is a newly renovated and high standard studio apartment. Perfect
+              location, only 450m away from Slavija Square in Belgrade, make this apartment ideal combination for great
+              sightseeing and convenient comfort breaks. Apartment is only 2km away from city center and you can reach
+              it by foot go there with almost all lines - tram 2, trolley 19, 21, 22, 29 and bus 31. If you are coming
+              in Belgrade by airplane, you will need only 15min from airplane to Soul Apartment. Central bus and railway
+              stations are also close - less than 2.5 km away Belgrade Waterfront is also close, only 2km away.
             </p>
           </Tab>
 
