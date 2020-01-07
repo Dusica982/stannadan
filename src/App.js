@@ -12,11 +12,10 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-          <a className="logo" href="https://stannaslaviji.rs">
-            {" "}
+          <p className="logo">
             <img className="logoImg" src="./images/SlavijaSquareApartment.jpg.jpg" />
             Soul Apartment - Slavija Square
-          </a>
+          </p>
         </div>
       </header>
       <div>
