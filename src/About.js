@@ -64,16 +64,16 @@ class About extends React.Component {
               <h2 className="aboutLetters">Distance</h2>
               <li>Public transport - 350m</li>
               <li>Downtown - 2km</li>
-              <li> Slavija Square- 350m</li>
+              <li> Slavija Square- 300m</li>
               <li> Skadarlija - 2km</li>
-              <li> Temple od St Sava - 500m</li>
+              <li> Temple od St Sava - 300m</li>
               <li> Republic Square - 2km</li>
               <li> Nacional Assembly - 1.8km</li>
               <li> Kalemegdan - 2.5km</li>
               <li> Belgrade Waterfront - 2km</li>
               <li>Airport Nikola Tesla - 18km</li>
-              <li>Train station - less than 2.5km</li>
-              <li>Bus station - less than 2.5km</li>
+              <li>Train station - 15 min</li>
+              <li>Bus station - 15 min</li>
               <li> Football Stadiums Red star and Partizan - 3km </li>
               <li>Shopping center Usce - 3km</li>
             </ul>
