@@ -36,6 +36,17 @@ html {
   pointer-events: none;
 }
 
+.flags {
+  width: auto;
+  height: auto;
+  position: static;
+}
+
+.allFlags {
+  display: flex;
+  flex-direction: column;
+}
+
 .App-header {
   background-color: #015981;
   min-height: 100%;

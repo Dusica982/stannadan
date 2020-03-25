@@ -1,13 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 // import logo from "./logo.svg";
 import "./App.css";
 import Photos from "./Photos";
 import Manu from "./Manu";
 import About from "./About";
 import Contact from "./ContactUs";
-// import SocialMedia from "./SocialMedia";
+import SocialMedia from "./SocialMedia";
+import { languages } from "./LocalizedStrings";
 
 function App() {
+  const [lang, setLang] = useState("en");
+
+  const setLangAndRerender = lang => {
+    languages.setLanguage(lang);
+    setLang(lang);
+  };
+
   return (
     <div className="App">
       <header className="App-header">
@@ -15,6 +23,11 @@ function App() {
           <p className="logo">
             <img className="logoImg" src="./images/SlavijaSquareApartment.jpg.jpg" />
             Soul Apartment - Slavija Square
+            <div className="allFlag">
+              <img onClick={() => setLangAndRerender("rs")} className="flags" src="images/serbianflag.jpg" />
+              <img onClick={() => setLangAndRerender("en")} className="flags" src="images/englishflag.jpg" />
+              <img className="flags" src="images/chineseflag.jpg" />
+            </div>
           </p>
         </div>
       </header>
@@ -28,9 +41,9 @@ function App() {
         <About />
       </div>
 
-      {/* <div>
+      <div>
         <SocialMedia />
-      </div> */}
+      </div>
       <div>
         <Contact />
       </div>

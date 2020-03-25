@@ -1,7 +1,7 @@
 import React from "react";
-
 import Tab from "react-bootstrap/Tab";
 import Tabs from "react-bootstrap/Tabs";
+import { languages } from "./LocalizedStrings";
 
 class About extends React.Component {
   render() {
@@ -9,73 +9,68 @@ class About extends React.Component {
       <div>
         <h2 className="simpleSlider" id="about">
           {" "}
-          Soul Apartment
+          {languages.soulApartmentTitle}
         </h2>
         <Tabs defaultActiveKey="location" className="aboutParagraphs">
-          <Tab eventKey="location" title="Location">
+          <Tab eventKey="location" title={languages.locationTabTitle}>
             <p className="aboutLetters">
-              <h2 className="aboutLetters">Soul Apartment Location</h2>
+              <h2 className="aboutLetters">{languages.locationTabMainTitle}</h2>
               <img className="map" src="images/map-apartment-bircaninova-slavija.jpg" />
               <img className="map" src="images/street-view.jpg" />
-              Soul Apartment in Bircaninova 28/b is a newly renovated and high standard studio apartment. Perfect
-              location, only 450m away from Slavija Square in Belgrade, make this apartment ideal combination for great
-              sightseeing and convenient comfort breaks. Apartment is only 2km away from city center and you can reach
-              it by foot go there with almost all lines - tram 2, trolley 19, 21, 22, 29 and bus 31. If you are coming
-              in Belgrade by airplane, you will need only 15min from airplane to Soul Apartment. Central bus and railway
-              stations are also close - less than 2.5 km away Belgrade Waterfront is also close, only 2km away.
+              {languages.locationTabDescription}
             </p>
           </Tab>
 
-          <Tab className="aboutLetters" eventKey="room" title="Room">
+          <Tab className="aboutLetters" eventKey="room" title={languages.roomTabTitle}>
             <p className="aboutLetters">
-              <h2>Room</h2>
+              <h2>{languages.roomTabMainTitle}</h2>
               <ul className="aboutLetters">
-                <li>Air-condition</li>
-                <li>Free wi-fi</li>
+                <li>{languages.roomTabDescriptioItemAir}</li>
+                <li>{languages.roomTabDescriptioItemWifi}</li>
               </ul>
             </p>
           </Tab>
 
-          <Tab eventKey="kitchen" title="Kitchen">
+          <Tab eventKey="kitchen" title={languages.kitchenTabTitle}>
             <p className="aboutLetters">
-              <h2>Kitchen</h2>
+              <h2>{languages.kitchenTabMainTitle}</h2>
 
               <ul className="aboutLetters">
-                <li>Coffee machine</li>
-                <li>Microwave oven</li>
-                <li>Dishwashing mashine</li>
-                <li>Refrigerator</li>
-                <li>Kitchen sink</li>
+                <li>{languages.kitchenCoffeeMachine}</li>
+                <li>{languages.kitchenMicrowaveOven}</li>
+                <li>{languages.kitchenDishwashingMashine}</li>
+                <li>{languages.kitchenRefrigerator}</li>
+                <li>{languages.kitchenKitchenSink}</li>
               </ul>
             </p>
           </Tab>
 
-          <Tab className="aboutLetters" eventKey="bathroom" title="Bathroom">
+          <Tab className="aboutLetters" eventKey="bathroom" title={languages.bathroomTabTitle}>
             <ul className="aboutLetters">
-              <h2 className="aboutLetters">Bathroom</h2>
-              <li>Shower</li>
-              <li>Washing machine</li>
-              <li>Hairdryer</li>
-              <li>Towels</li>
+              <h2 className="aboutLetters">{languages.bathroomTabMainTitle}</h2>
+              <li>{languages.bathroomShower}</li>
+              <li>{languages.bathroomWashingMachine}</li>
+              <li>{languages.bathroomHairdryer}</li>
+              <li>{languages.bathroomTowels}</li>
             </ul>
           </Tab>
-          <Tab className="aboutLetters" eventKey="distance" title="Distance">
+          <Tab className="aboutLetters" eventKey="distance" title={languages.distanceTabTitle}>
             <ul className="aboutLetters">
-              <h2 className="aboutLetters">Distance</h2>
-              <li>Public transport - 350m</li>
-              <li>Downtown - 2km</li>
-              <li> Slavija Square- 300m</li>
-              <li> Skadarlija - 2km</li>
-              <li> Temple od St Sava - 300m</li>
-              <li> Republic Square - 2km</li>
-              <li> Nacional Assembly - 1.8km</li>
-              <li> Kalemegdan - 2.5km</li>
-              <li> Belgrade Waterfront - 2km</li>
-              <li>Airport Nikola Tesla - 18km</li>
-              <li>Train station - 15 min</li>
-              <li>Bus station - 15 min</li>
-              <li> Football Stadiums Red star and Partizan - 3km </li>
-              <li>Shopping center Usce - 3km</li>
+              <h2 className="aboutLetters">{languages.distanceTabMainTitle}</h2>
+              <li>{languages.distancePublicTransport}</li>
+              <li>{languages.distanceDowntown}</li>
+              <li>{languages.distanceSlavijaSquare}</li>
+              <li>{languages.distanceSkadarlija}</li>
+              <li>{languages.distanceTempleOfStSava}</li>
+              <li>{languages.distanceRepublicSquare}</li>
+              <li>{languages.distanceNacionalAssembly}</li>
+              <li>{languages.distanceKalemegdan}</li>
+              <li>{languages.distanceBelgradeWaterfront}</li>
+              <li>{languages.distanceAirportNikolaTesla}</li>
+              <li>{languages.distanceTrainStation}</li>
+              <li>{languages.distanceBusStation}</li>
+              <li>{languages.distanceFootballStadiumsRedStarAndPartizan}</li>
+              <li>{languages.distanceShoppingCenterUsce}</li>
             </ul>
           </Tab>
         </Tabs>

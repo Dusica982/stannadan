@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
+import { languages } from "./LocalizedStrings";
 
 class Photos extends React.Component {
   render() {
@@ -13,7 +14,7 @@ class Photos extends React.Component {
 
     return (
       <div id="photos">
-        <h2 className="simpleSlider"> Photos</h2>
+        <h2 className="simpleSlider"> {languages.photosTitle}</h2>
         <Slider {...settings}>
           <div>
             <img src="images/stannadan1.jpg" className="homePageSlider" />

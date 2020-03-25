@@ -1,19 +1,20 @@
 import React from "react";
 // import { ButtonGroup, Button } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { languages } from "./LocalizedStrings";
 
 class Manu extends React.Component {
   render() {
     return (
       <div className="wholemanu">
         <a className="manuTabs" href="#photos">
-          Photos
+          {languages.menuPhotos}
         </a>
         <a className="manuTabs" href="#about">
-          Soul Apartment
+          {languages.menuSoulApartment}
         </a>
         <a className="manuTabs" href="#form">
-          Contact Us
+          {languages.menuContactUs}
         </a>
       </div>
     );
